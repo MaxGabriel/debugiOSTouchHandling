@@ -1,7 +1,5 @@
-debugiOSTouchHandling
+Debug iOS Touch Handling
 =====================
-
-(WIP) Code to help debug when your touch handling isn't working correctly. 
 
 Debugging touch events can be a pain in the butt. Whether you're adding a multiple target-action pairs in `cellForRowAtIndexPath` or somewhere in the hierarchy, a view isn't large enough to contain its subviews, the debugging process can be opaque. 
 
