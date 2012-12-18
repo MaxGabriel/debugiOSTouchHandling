@@ -18,6 +18,8 @@
 		5098E43016802AB600DE254C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5098E42F16802AB600DE254C /* Default-568h@2x.png */; };
 		5098E43316802AB600DE254C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5098E43116802AB600DE254C /* MainStoryboard.storyboard */; };
 		5098E43616802AB600DE254C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5098E43516802AB600DE254C /* ViewController.m */; };
+		5098E44116802C6C00DE254C /* UIView+TouchDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 5098E44016802C6C00DE254C /* UIView+TouchDebug.m */; };
+		5098E44316804A3300DE254C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5098E44216804A3300DE254C /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,9 @@
 		5098E43216802AB600DE254C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		5098E43416802AB600DE254C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5098E43516802AB600DE254C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5098E43F16802C6C00DE254C /* UIView+TouchDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TouchDebug.h"; sourceTree = "<group>"; };
+		5098E44016802C6C00DE254C /* UIView+TouchDebug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TouchDebug.m"; sourceTree = "<group>"; };
+		5098E44216804A3300DE254C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5098E44316804A3300DE254C /* QuartzCore.framework in Frameworks */,
 				5098E41A16802AB600DE254C /* UIKit.framework in Frameworks */,
 				5098E41C16802AB600DE254C /* Foundation.framework in Frameworks */,
 				5098E41E16802AB600DE254C /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +62,7 @@
 		5098E40A16802AB600DE254C = {
 			isa = PBXGroup;
 			children = (
+				5098E44216804A3300DE254C /* QuartzCore.framework */,
 				5098E41F16802AB600DE254C /* TouchDebug */,
 				5098E41816802AB600DE254C /* Frameworks */,
 				5098E41616802AB600DE254C /* Products */,
@@ -88,6 +95,8 @@
 				5098E43116802AB600DE254C /* MainStoryboard.storyboard */,
 				5098E43416802AB600DE254C /* ViewController.h */,
 				5098E43516802AB600DE254C /* ViewController.m */,
+				5098E43F16802C6C00DE254C /* UIView+TouchDebug.h */,
+				5098E44016802C6C00DE254C /* UIView+TouchDebug.m */,
 				5098E42016802AB600DE254C /* Supporting Files */,
 			);
 			path = TouchDebug;
@@ -176,6 +185,7 @@
 				5098E42616802AB600DE254C /* main.m in Sources */,
 				5098E42A16802AB600DE254C /* AppDelegate.m in Sources */,
 				5098E43616802AB600DE254C /* ViewController.m in Sources */,
+				5098E44116802C6C00DE254C /* UIView+TouchDebug.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
